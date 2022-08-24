@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+body {
+    height: 1024px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+    height: 101px;
+    width: 100%;
+    padding-left: 28px;
+
+    background-color: #00669F;
+    box-shadow: 0 10px 7px rgba(0, 0, 0, 0.25);
+
+    z-index: 2;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 47px;
+    font-weight: 400;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.discount-bar {
+    background-color: #1CD1B0;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.discount-bar#discount-description {
+    font-size: 15px;
+}
+
+.main {
+    display: flex;
+    width: 834px;
+    height: 597px;
+    justify-content: space-between;
+}
+
+.card {
+    width: 374px;
+    height: 597px;
+    position: relative;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.card-background {
+    width: 374px;
+    height: 218px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.heart {
+    width: 34px;
+    height: 30px;
+    position: absolute;
+    left: 24px;
+    top: 19px;
+}
+
+.card-image {
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    position: absolute;
+    top: 143px;
+    right: 110px;
+    left: 128px;
+}
+
+.text-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div h2 {
+    text-align: center;
+    margin: 82px 0 30px;
+    font-size: 30px;
+    line-height: 35px;
+    width: 192px;
+}
+
+p {
+    width: 301px;
+    height: 128px;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #333333;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 145px;
+    height: 55px;
+    background-color: #00669F;
+    margin-top: 24px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #F3F3F3;
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 51px;
+    margin-top: 151px;
+    padding-left: 28px;
+
+    background-color: #00669F;
+    top: 100%;
+    color: #FFF9F9;
+}
