@@ -63,6 +63,7 @@ main {
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
+    background: #F3F3F3;
 }
 
 .card-background {
