@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    text-decoration: none;
+}
+
+header {
+    background-color: #00008B;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    width: 100%;
+    padding: 15px;
+    box-shadow: 0px 3px 7px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titulo {
+    color: #87CEEB;
+}
+
+a {
+    display: inline-block;
+    padding: 5px;
+    color: white;
+}
+
+.banner {
+    background-image: url(../img/santa-catarina0.png);
+    height: 480px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.text {
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 365px;
+    margin-left: 12px;
+    padding: 12px;
+}
+
+.section-title {
+    text-align: left;
+}
+
+.curiosity-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.card {
+    text-align: center;
+    width: 335px;
+    height: 535px;
+    margin: 18px;
+}
+
+.card-image {
+    object-fit: cover;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    padding: 15px;
+}
+
+.youtube {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.logo {
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+}
+
+.github-links {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-right: 200px;
+}
+
+.linkedin-links {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.github-logo {
+    width: 30px;
+    height: 30px;
+}
+
+.linkedin-logo {
+    width: 30px;
+    height: 30px;
+}
+
+footer {
+    background: #00008B;
+    padding: 15px;
+    box-shadow: 0px 3px 7px;
+}
