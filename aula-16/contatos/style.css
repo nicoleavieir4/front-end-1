@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .barDiscount {
+    background: #1cd1b0;
+    height: 38px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  
+  .header {
+    height: 101px;
+    background: #00669f;
+    box-shadow: 0px 10px 7px rgb(0, 0, 0, 0.25);
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    line-height: 35px;
+    font-weight: 400;
+    font-size: 25px;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 580px;
+    margin-top: 100px;
+  }
+  
+  main .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 200;
+    padding: 15px;
+    margin-top: 20px;
+    width: 725px;
+  }
+
+  .form input {
+    border: 1.53407px solid #000000;
+  }
+
+  .formb-input {
+    height: 251px;
+    width: 620px;
+    border-radius: 0px;
+    padding: 12px;
+    border: 1.53407px solid #000000;
+
+  }
+
+  a {
+    text-decoration: none;
+    color: #ffff;
+  }
+  
+  header h1{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+    margin-left: 10px;
+  }
+  
+  input {
+    border: 1, 53px solid #000000;
+    width: 620px;
+    height: 50px;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  
+  select {
+    border: 1, 53px solid #000000;
+    width: 620px;
+    height: 150px;
+    padding: 15px;
+  }
+  
+  input::placeholder {
+    color: #000000;
+  }
+  
+  select::placeholder {
+    color: #000000;
+  }
+  
+  .button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 620px;
+  }
+  
+  #Limpar {
+    height: 54px;
+    background: #888888;
+    border-radius: 23px;
+    border: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "karla", sans-serif;
+    font-size: 24px;
+    line-height: 44px;
+    margin-top: 20px;
+    width: 300px;
+  }
+  
+  #Entrar {
+    height: 54px;
+    background: #1cd1b0;
+    border-radius: 23px;
+    border: none;
+    color: #000000;
+    font-weight: 700;
+    font-family: "karla", sans-serif;
+    font-size: 24px;
+    line-height: 44px;
+    margin-top: 20px;
+    width: 300px;
+  }
+  
+  footer{
+    width: 1440px;
+    height: 61px;
+    left: 0px;
+    top: 1055px;
+    background-color: #00669F;
+    bottom: 0px;
+    padding: 16px 0px 16px 28px;
+    color: #ffff;
+    font-size: 1rem;
+    position: absolute;
+    bottom: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);;
+  }

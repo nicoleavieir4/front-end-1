@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 1340px;
+    height: 974px;
+   
+    
+}
+
+.barDiscount{
+    position: fixed;
+    background-color: #1CD1B0;
+    width: 100%;
+    height: 28px;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+
+}
+
+h3{
+    width: 324px;
+    height: 18px;
+    left: 0px;
+    top: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 0px;
+    margin: 15px 10px;
+    color: black;
+}
+
+.header{
+    position: sticky;
+    background-color: #00669F;
+    width: 100%;
+    height: 101px;
+    left: 0px;
+    top: 28px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+
+h1{
+    width: 324px;
+    height: 47px;
+    left: 28px;
+    top: 66px;
+    margin: 26px 30px;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 95px;
+    color: white;
+}
+
+.background{
+    background-image: url(img/bg.png);
+    width: 100%;
+    height: 100%;
+}
+
+.card{
+    position: absolute;
+    width: 546px;
+    height: 456px;
+    left: 447px;
+    top: 341px;
+    background: #F3F3F3;
+    border-radius: 45px;
+    box-shadow: 0px 2px 2px #c1c1c1;
+}
+
+.harley{
+    position: relative;
+    width: 374px;
+    max-width: 375px;
+    height: 50px;
+}
+
+.avatar{
+    position: absolute;
+    width: 159px;
+    height: 159px;
+    left: 200px;
+    top: -90px;
+    border-radius: 79.5px;
+}
+
+.heart{
+    position: absolute;
+    left: 30px;
+    top: 60px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 300px;
+    align-items: center;
+    margin: auto;
+    
+}
+
+h2{
+    height: 10px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #2C0187;
+    margin: 40px 0px;
+}
+
+p{
+    width: 500px;
+    height: 200px;
+    left: 470px;
+    top: 462px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    margin: 0;
+}
+
+span{
+    color: #2C0187;
+}
+
+.icons{
+    margin: 10px 0px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    width: 548px;
+    height: 97px;
+    left: 447px;
+    top: 710px;
+    background: #2C0187;
+    border-radius: 0px 0px 45px 45px;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.footer{
+    background-color: #00669F;
+    position: absolute;
+    width: 100%;
+    height: 51px;
+    left: 0px;
+    top: 1100px;
+}
+
+h4{
+    width: 98%;
+    height: 19px;   
+    left: 28px; 
+    top: 988px; 
+    font-style: normal;
+    font-weight: 400;   
+    font-size: 16px;    
+    line-height: 19px;
+    text-align: center;
+    margin: 18px 15px;
+    color: #FFF9F9;
+}
